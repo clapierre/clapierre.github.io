@@ -1892,21 +1892,8 @@ define([
                     text: "This will allow you to add images, audio or video media to a question, or other custom content.",
                     link: "https://confluence.dimagi.com/display/commcarepublic/Multimedia+in+CommCare"
                 }
-            },
-            {
-                slug: "advanced",
-                type: "accordion",
-                displayName: "Advanced",
-                properties: this.getAdvancedProperties(),
-                isCollapsed: true,
-                help: {
-                    title: "Advanced",
-                    text: "These are advanced settings and are not needed for most applications.  " +
-                        "Please only change these if you have a specific need!",
-                    link: "https://confluence.dimagi.com/display/commcarepublic/Application+Building"
-                }
             }
-        ];
+       ];
     };
 
     fn.getMainProperties = function () {
@@ -1934,7 +1921,9 @@ define([
             "requiredAttr",
             "relevantAttr",
             "constraintAttr",
-            "repeat_count"
+            "repeat_count",
+            "defaultValue",
+            
         ];
     };
 
