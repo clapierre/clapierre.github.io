@@ -1,11 +1,1 @@
-requirejs.config({
-    paths: {
-        'camelCase': 'other/camelCase'
-    }
-});
-
-require(['CamelCase', 'camelCase'], function (CamelCase, camelCase) {
-    console.log(CamelCase);
-    console.log(camelCase);
-});
-
+requirejs.config({paths:{camelCase:"other/camelCase"}});require(["CamelCase","camelCase"],function(b,a){console.log(b);console.log(a)});

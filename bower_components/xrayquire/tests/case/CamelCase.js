@@ -1,4 +1,1 @@
-define({
-    name: 'CamelCase'
-});
-
+define({name:"CamelCase"});

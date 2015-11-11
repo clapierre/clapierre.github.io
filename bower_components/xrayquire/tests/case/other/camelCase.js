@@ -1,3 +1,1 @@
-define({
-    name: 'cameCase'
-});
+define({name:"cameCase"});
